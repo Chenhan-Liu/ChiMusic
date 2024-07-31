@@ -1,24 +1,27 @@
 <!-- index.wxml -->
-<view class="container">
-  <view class="title">知日音乐琴房预约</view>
-  <view class="room-buttons">
-    <navigator url="/pages/101_Sheet/index" class="room-button">
-      101琴房（立式钢琴）
-    </navigator>
-    <navigator url="/pages/102_Sheet/index" class="room-button">
-      102琴房（三角钢琴）
-    </navigator>
-    <navigator url="/pages/204_Sheet/index" class="room-button">
-      204琴房(理论/自持乐器)
-    </navigator>
-    <navigator url="/pages/205_Sheet/index" class="room-button">
-      205琴房(音乐制作/自持乐器)
-    </navigator>
-    <navigator url="/pages/301_Sheet/index" class="room-button">
-      301琴房(舞蹈/流行演唱/立式钢琴）
-    </navigator>
-    <navigator url="/pages/302_Sheet/index" class="room-button">
-      302琴房（音乐制作）
-    </navigator>
+<view class="page-wrapper">
+  <view class="container">
+    <view class="title">知日音乐琴房预约</view>
+    <view class="room-buttons">
+      <navigator url="/pages/101_Sheet/index" class="room-button">
+        101琴房（立式钢琴）
+     </navigator>
+      <navigator url="/pages/102_Sheet/index" class="room-button">
+        102琴房（三角钢琴）
+      </navigator>
+     <navigator url="/pages/204_Sheet/index" class="room-button">
+        204琴房(理论/自持乐器)
+      </navigator>
+      <navigator url="/pages/205_Sheet/index" class="room-button">
+        205琴房(音乐制作/自持乐器)
+      </navigator>
+      <navigator url="/pages/301_Sheet/index" class="room-button">
+        301琴房(舞蹈/流行演唱/立式钢琴）
+      </navigator>
+      <navigator url="/pages/302_Sheet/index" class="room-button">
+        302琴房（音乐制作）
+      </navigator>
+    </view>
+    <image src= "../../images/CHIMUSIC_English_Color.PNG" class="logo-image" mode="widthFix"></image>
   </view>
 </view>

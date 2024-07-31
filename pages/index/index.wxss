@@ -1,7 +1,10 @@
 /* index.wxss */
 .container {
   padding: 20px;
-  padding-top: 40px;
+}
+
+.page-wrapper{
+  margin-top: 100px;
 }
 
 .title {
@@ -21,8 +24,20 @@
   height: 60px;
   line-height: 60px;
   text-align: center;
-  background-color: #ffe9cf;
+  background-color: #cfcfcf;
   color: rgb(0, 0, 0);
-  border-radius: 10px;
+  border-radius: 20px;
   margin-bottom: 20px;
+}
+
+.logo-image {
+  width: 380px; /* 根据需要调整宽度 */
+  height: auto; /* 保持比例 */
+  display: block;
+  position: absolute; /* 绝对定位 */
+  top: 700px; /* 根据需要调整向上的距离 */
+  left: 50%; /* 水平居中 */
+  transform: translateX(-50%); /* 水平居中 */
+  opacity: 0.5; /* 设置透明度 */
+  z-index: -1; /* 设置为底层 */
 }
