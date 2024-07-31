@@ -1,0 +1,114 @@
+/* index.wxss */
+.back-button {
+  position: fixed;
+  top: 30px;  /* 根据需要调整 */
+  left: 15px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  z-index: 1000;
+}
+
+.back-icon {
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+.back-text {
+  font-size: 16px;
+}
+
+.container {
+  padding: 20px;
+}
+
+.day-picker {
+  width: calc(100% - 180px);
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #cfcfcf;
+  border-radius: 10px;
+  margin: 40px 90px;
+}
+
+.picker-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.picker-text {
+  font-size: 18px;
+}
+
+.picker-arrow{
+  position: absolute;
+  right:20px;
+  font-size: 28px;
+  color: #797979;
+  margin-left: 10px;
+  top: -8px;
+}
+
+.timetable {
+  width: calc(100% - 120px);
+  margin: 20px 60px;
+  border-radius: 20px;
+  border: 2px solid #424242;
+  overflow: hidden;
+}
+
+.table-row {
+  display: flex;
+  border-bottom: 0.5px solid #e0e0e0;
+}
+
+.table-cell {
+  flex: 1;
+  height: 45px;
+  line-height: 40px;
+  padding: 0 10px;
+}
+
+.time {
+  background-color: #f5f5f5;
+  font-weight: bold;
+  text-align: center; /* 水平居中 */
+  display: flex;
+  align-items: center; /* 垂直居中 */
+  justify-content: center; /* 水平居中 */
+  width: 60px;
+}
+
+.name {
+  border: none;
+  text-align: center; /* 水平居中 */
+  display: flex;
+  align-items: center; /* 垂直居中 */
+  justify-content: center; /* 水平居中 */
+  flex: 1;
+}
+
+.room-image{
+  width: 240px; /* 根据需要调整宽度 */
+  height: auto; /* 保持比例 */
+  display: block;
+  position: absolute; /* 绝对定位 */
+  top: 700px; /* 根据需要调整向上的距离 */
+  left: 50%; /* 水平居中 */
+  transform: translateX(-20%) translateY(30%) rotate(0deg); /* 水平居中 */
+  opacity: 0.3; /* 设置透明度 */
+  z-index: -1; /* 设置为底层 */
+}
+
+.page-wrapper-1{
+  margin-top: 10px;
+}
+.page-wrapper-2{
+  margin-top: 120px;
+}
